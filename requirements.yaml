@@ -1,0 +1,12 @@
+name: m1
+dependencies:
+  - black
+  - bokeh
+  - pip
+  - pylint
+  - python
+  - numpy
+  - nodejs
+  - flask
+  - pip:
+      - Flask-Testing
