@@ -1,7 +1,6 @@
 """
 List Comprehensions
 """
-from numpy.random import shuffle, randint
 
 
 def main():
