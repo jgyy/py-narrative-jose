@@ -2,12 +2,11 @@ name: m1
 dependencies:
   - black
   - bokeh
+  - bs4
   - flask
+  - nodejs
+  - numpy
   - pip
   - pylint
   - python
-  - numpy
-  - nodejs
-  - pip:
-      - Flask-Testing
-      - pub
+  - requests
