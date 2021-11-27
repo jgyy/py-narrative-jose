@@ -2,7 +2,7 @@ name: m1
 dependencies:
   - black
   - bokeh
-  - bs4
+  - beautifulsoup4
   - flask
   - nodejs
   - numpy
@@ -10,3 +10,4 @@ dependencies:
   - pylint
   - python
   - requests
+  - send2trash
