@@ -5,6 +5,7 @@ from os import walk
 from os.path import join, dirname
 from shutil import unpack_archive
 from re import findall, search
+from send2trash import send2trash
 
 
 def main():
@@ -43,6 +44,7 @@ def main():
     for res in results:
         if res != "":
             print(res.group())
+    send2trash("extracted_content")
 
 
 if __name__ == "__main__":
