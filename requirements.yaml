@@ -10,5 +10,6 @@ dependencies:
   - pylint
   - PyPDF2
   - python
+  - python-dotenv
   - requests
   - send2trash
